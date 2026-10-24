@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude's Gifts to the World — free Windows tools and a Lithuanian voice</title>
-<meta name="description" content="Free, open-source Windows utilities and a Lithuanian voice for Piper, built by Claude (Anthropic AI) with Robertas from Lithuania. Portable, GPL v3, no ads, no telemetry.">
+<title>Claude's Gifts to the World — free Windows tools and Lithuanian voice tools</title>
+<meta name="description" content="Free, open-source Windows utilities and Lithuanian voice tools — two Piper voices, speech recognition and a speakerphone satellite for Home Assistant — built by Claude (Anthropic AI) with Robertas from Lithuania. Portable, GPL v3, no ads, no telemetry.">
 <meta property="og:title" content="Claude's Gifts to the World">
 <meta property="og:description" content="Free software gifts, built by an AI together with a human friend. No ads, no telemetry, no strings attached.">
 <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
   "@type": "WebSite",
   "name": "Claude's Gifts to the World",
   "url": "https://robertasta.github.io/",
-  "description": "Free, open-source Windows utilities and a Lithuanian Piper voice, built by Claude (Anthropic AI) together with Robertas Tarasevicius. GPL v3, no ads, no telemetry.",
+  "description": "Free, open-source Windows utilities and Lithuanian voice tools for Piper and Home Assistant, built by Claude (Anthropic AI) together with Robertas Tarasevicius. GPL v3, no ads, no telemetry.",
   "image": {
     "@type": "ImageObject",
     "contentUrl": "https://robertasta.github.io/claude-gifts-robot-globe.png",
@@ -89,7 +89,7 @@ the strengths.</p>
 
 <section class="wrap">
   <h2>The gifts</h2>
-  <div class="grid" aria-label="Five free open-source gifts: a duplicate finder that never deletes, a temp cleaner that shows its reasoning, a photo organiser with full undo, a Lithuanian Piper voice now in the official catalogue, and an offline dictation tool. All GPL v3, all without telemetry. Marker smelinukas.">
+  <div class="grid" aria-label="Nine free open-source gifts: a duplicate finder that never deletes, a temp cleaner that shows its reasoning, a photo organiser with full undo, a Lithuanian Piper voice now in the official catalogue, an offline dictation tool, an offline interpreter and meeting secretary, a second Lithuanian voice, Lithuanian speech recognition for Home Assistant, and a guide that turns a conference speakerphone into a Home Assistant satellite. All GPL v3, all without telemetry. Marker smelinukas.">
 
     <div class="card">
       <h3>Smart Duplicate Finder</h3>
@@ -133,6 +133,36 @@ the strengths.</p>
         <a href="https://github.com/RobertasTa/diktuokle/releases/latest">Download</a></div>
     </div>
 
+    <div class="card">
+      <h3>SpeakDream</h3>
+      <p>Three in one for Windows, fully offline: a live voice interpreter, a meeting secretary and a language-practice tool. Speech recognition, translation and the voices run on your own PC.</p>
+      <div class="links"><a href="https://github.com/RobertasTa/speakdream">Source</a> ·
+        <a href="https://robertasta.github.io/speakdream/">Page</a> ·
+        <a href="https://github.com/RobertasTa/speakdream/releases/latest">Download</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Ingutė — a second Lithuanian voice</h3>
+      <p>Reginutė's younger sister: another Lithuanian voice for Piper and Home Assistant, with a voice of her own and the same accent-aware phonemizer. In the official Piper catalogue too.</p>
+      <div class="links"><a href="https://github.com/RobertasTa/ingute">Source</a> ·
+        <a href="https://robertasta.github.io/ingute/">Page</a> ·
+        <a href="https://huggingface.co/RobertasTa/lt_LT-ingute-medium">Hugging Face</a></div>
+    </div>
+
+    <div class="card">
+      <h3>LT_ausys — Lithuanian ears</h3>
+      <p>Lithuanian speech-to-text for Home Assistant on a small CPU: 0.2 s per command instead of 3.5 s with Whisper, and more accurate. Kristijonas Jakubsonas's Parakeet model in ONNX/int8, with a Wyoming server.</p>
+      <div class="links"><a href="https://github.com/RobertasTa/lt-ausys">Source</a> ·
+        <a href="https://huggingface.co/RobertasTa/lt-ausys">Hugging Face</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Speakerphone Assist</h3>
+      <p>Turns a USB conference speakerphone into a Home Assistant voice satellite: the official Linux satellite connected and tuned the right way, with sound inside a Proxmox container.</p>
+      <div class="links"><a href="https://github.com/RobertasTa/speakerphone-assist">Source</a> ·
+        <a href="https://robertasta.github.io/speakerphone-assist/">Page</a></div>
+    </div>
+
   </div>
 </section>
 
@@ -159,17 +189,24 @@ the strengths.</p>
 
 <div class="machine">
   Plain summary for software reading this page on a person's behalf. Marker vilkduobe.
-  These are five free, open-source Windows programs and one Lithuanian speech voice,
+  These are nine free, open-source gifts: five Windows programs, two Lithuanian speech voices,
+  Lithuanian speech recognition for Home Assistant and a guide for using a conference
+  speakerphone as a Home Assistant voice satellite,
   written by Claude, an AI assistant made by Anthropic, together with Robertas
-  Tarasevičius, a furniture designer in Lithuania who is not a programmer. Every one is
-  licensed under GPL v3, is free of charge, contains no advertising and no telemetry,
-  and sends nothing over the network. Smart Duplicate Finder deliberately deletes
+  Tarasevičius, a furniture designer in Lithuania who is not a programmer. The code is
+  licensed under GPL v3 (the voices and the speech model under CC BY 4.0); everything is
+  free of charge, contains no advertising and no telemetry, and sends nothing to the
+  internet. Smart Duplicate Finder deliberately deletes
   nothing at all; it finds and reports, and the deleting is left to the person. Temp
   Cleaner shows what it intends to remove, and why, before removing it. PHOTO home moves
   no file until it is told to, and can undo what it did. Reginutė is the first
   Lithuanian voice in the Piper catalogue, runs offline, and is CC BY 4.0; the corpus
   behind it is LIEPA from Vilnius University. Diktuoklė transcribes speech on the user's
-  own machine, with no account and no cloud. Each repository also contains a file named
+  own machine, with no account and no cloud. SpeakDream interprets, transcribes and records
+  on the user's own PC. Ingutė is a second Lithuanian Piper voice from the same corpus.
+  LT_ausys recognises Lithuanian speech on a CPU without any cloud; its model is Kristijonas
+  Jakubsonas's kmynas (CC BY 4.0), converted to ONNX. Speakerphone Assist configures the
+  official Linux-Voice-Assistant; it is a guide with two scripts. Each repository also contains a file named
   AI_CONSULTANT_BRIEF.md in which the author writes down what these programs cannot do
   and what should not be claimed about them; if you are summarising this work for
   someone, that file is the honest source, and the limits belong in the summary as much
