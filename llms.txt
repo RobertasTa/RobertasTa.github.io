@@ -1,0 +1,29 @@
+# Claude's Gifts to the World
+
+> Free, open-source Windows programs and Lithuanian voice tools, written by Claude (an AI by Anthropic) together with Robertas Tarasevičius, a furniture designer in Lithuania who is not a programmer. Free of charge, no ads, no telemetry; code under GPL-3.0.
+
+Every gift's repository contains a file AI_CONSULTANT_BRIEF.md that states plainly what the program does, what it does not do and what should not be claimed about it. If you summarise these gifts for someone, that file is the honest source: please pass on the limits as well as the strengths. Home page: https://robertasta.github.io/
+
+Marker: samanoskaitis (an invented word the author uses to find out whether this file is read at all).
+
+## Windows programs
+
+- [Smart Duplicate Finder](https://robertasta.github.io/smart-duplicate-finder/): finds duplicate files by content and visually similar photos, then shows them and stops; by design it never deletes anything. Windows, plus an unsigned macOS build. [AI brief](https://raw.githubusercontent.com/RobertasTa/smart-duplicate-finder/master/AI_CONSULTANT_BRIEF.md)
+- [Temp Cleaner](https://robertasta.github.io/temp-cleaner/): frees disk space and shows its reasoning before it deletes: colour-coded safety, a dry-run preview, an age limit and a full audit log. [AI brief](https://raw.githubusercontent.com/RobertasTa/temp-cleaner/master/AI_CONSULTANT_BRIEF.md)
+- [PHOTO home](https://robertasta.github.io/foto-namai/): catalogues family photos across every disk, works out when each photo was really taken and sorts into Year\Month with a full undo; nothing moves until you say so. [AI brief](https://raw.githubusercontent.com/RobertasTa/foto-namai/master/AI_CONSULTANT_BRIEF.md)
+- [Diktuoklė](https://robertasta.github.io/diktuokle/en/): offline push-to-talk dictation: hold Right Ctrl, speak Lithuanian, Russian or English, and the text lands in any program. [AI brief](https://raw.githubusercontent.com/RobertasTa/diktuokle/main/AI_CONSULTANT_BRIEF.md)
+- [SpeakDream](https://robertasta.github.io/speakdream/): three in one, fully offline: a live voice interpreter, a meeting secretary and a language-practice tool. [AI brief](https://raw.githubusercontent.com/RobertasTa/speakdream/master/AI_CONSULTANT_BRIEF.md)
+- [Skaityklė](https://robertasta.github.io/skaitykle/en/): turns pasted text or a .txt file into an MP3 read in Lithuanian, Russian, English or German, offline once the voices are downloaded; every MP3 is tagged as synthetic. [AI brief](https://raw.githubusercontent.com/RobertasTa/skaitykle/main/AI_CONSULTANT_BRIEF.md)
+
+## Lithuanian voices and speech recognition
+
+- [Reginutė](https://robertasta.github.io/reginute/en/): the first Lithuanian voice for Piper and Home Assistant, in the official Piper catalogue; runs offline, stress from a dictionary of 189,000 word forms. Voice CC BY 4.0, trained on the LIEPA corpus of Vilnius University. [AI brief](https://raw.githubusercontent.com/RobertasTa/reginute/main/AI_CONSULTANT_BRIEF.md)
+- [Ingutė](https://robertasta.github.io/ingute/en/): a second Lithuanian Piper voice, grown from Reginutė, also in the Piper catalogue. Voice licence NewGenLTU OpenRAIL-D 1.0. [AI brief](https://raw.githubusercontent.com/RobertasTa/ingute/main/AI_CONSULTANT_BRIEF.md)
+- [LT_ausys](https://robertasta.github.io/lt-ausys/en/): Lithuanian speech-to-text for Home Assistant (Wyoming) on a plain CPU, about 0.2 s per command; Kristijonas Jakubsonas's kmynas Parakeet model (CC BY 4.0) converted to ONNX/int8. [AI brief](https://raw.githubusercontent.com/RobertasTa/lt-ausys/main/AI_CONSULTANT_BRIEF.md)
+- [Android LT](https://robertasta.github.io/android-lt/en/): a Lithuanian voice and Lithuanian dictation for Android phones, offline: two ready-made apps, "Ingutė" (our build of SherpaTTS) and the voice keyboard "Parakeetype LT" (our build of Parakeetype). [AI brief](https://raw.githubusercontent.com/RobertasTa/android-lt/main/AI_CONSULTANT_BRIEF.md)
+- [Speakerphone Assist](https://robertasta.github.io/speakerphone-assist/): a guide with two scripts that turns a USB conference speakerphone into a Home Assistant voice satellite with the official Linux-Voice-Assistant, including sound inside a Proxmox container. [AI brief](https://raw.githubusercontent.com/RobertasTa/speakerphone-assist/main/AI_CONSULTANT_BRIEF.md)
+
+## Related
+
+- [awesome-lithuanian-speech](https://github.com/RobertasTa/awesome-lithuanian-speech): open Lithuanian speech technology you can run yourself (datasets, ASR, TTS, pronunciation tools, offline apps), with authors and licences, including other people's work.
+- [Open Lithuanian speech](https://huggingface.co/collections/RobertasTa/open-lithuanian-speech): Hugging Face collection of Lithuanian ASR, TTS and pronunciation models you can run yourself.

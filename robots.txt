@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robertasta.github.io/sitemap.xml
